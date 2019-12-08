@@ -1,0 +1,5 @@
+print("Enter 3 numbers")
+a = [int(x) for x in input().split()]
+a.sort()
+print('The median is: ')
+print(a[1])
