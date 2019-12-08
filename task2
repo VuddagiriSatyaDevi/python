@@ -1,0 +1,3 @@
+f=input("Enter the file name:")
+l=f.split('.')
+print("Extension of file is {}".format(l[-1]))
